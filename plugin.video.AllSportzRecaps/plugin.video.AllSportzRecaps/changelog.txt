@@ -1,0 +1,14 @@
+v1.0.7 - Updated Dependencies
+         Thumbnail View Fixed (Rock)
+
+v1.0.6 - Updated Dependencies
+
+v1.0.5 - New Artwork Thanks @optimusnest888 (Rock)
+
+v1.0.4 - Full add-on rewrite (Rock)
+
+v1.0.3 More Content Added
+
+v1.0.2 More Content Added
+
+v1.0.0 - Initial Release (Rock)

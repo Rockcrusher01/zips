@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.AllSportzRecaps"
+	name="[COLOR red]Strike's AllSportz Recaps[/COLOR]"
+	version="1.0.7"
+	provider-name="Strike">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Strikes YouTube Sports Playlists</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
