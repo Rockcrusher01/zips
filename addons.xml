@@ -246,6 +246,26 @@
   </extension>
 </addon>
 
+<addon id="program.RockCleaner-Classic"
+       name="[COLOR red]ROCK CLEANER CLASSIC[/COLOR]"
+       version="1.0.0"
+       provider-name="Rockcrusher">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="cleaner.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary></summary>
+    <description>
+	Simple tool for cleaning Kodi and its file system.
+    </description>
+    <language></language>
+  </extension>
+</addon>
+
 <addon id="plugin.video.GearZ"
 	name="[COLOR red]GearZ[/COLOR]"
 	version="1.0.5"
