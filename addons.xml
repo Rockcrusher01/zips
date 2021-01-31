@@ -354,4 +354,27 @@
     <platform>all</platform>
   </extension>
 </addon>
+
+<addon id="plugin.video.slipstream"
+       name="Slipstream"
+       version="1.0.0"
+       provider-name="Rock">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+	<import addon="script.module.requests"/>
+    <import addon="script.module.resolveurl"/>
+	<import addon="inputstream.adaptive"/>
+	<import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			library="Slipstream.py">
+			<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Race Replays</summary>
+    <description lang="en">Race Replays</description>
+    <language>en</language>
+	<platform>all</platform>
+  </extension>
+</addon>
 </addons>
