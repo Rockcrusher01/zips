@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="30041">
+        <setting label="30072" type="bool"   id="ignore_existing_thumbs"  default="true" />
+        <setting label="30083" type="bool"   id="confirm"  default="false" />
+    </category>
+    <category label="30042">
+        <setting label="30091" type="bool"   id="autoclean"  default="false" />
+        <setting label="30098" type="slider" id="autostart_delay" default="1" range="0,1,30" option="int" visible="eq(-1,true)" />
+        <setting label="30140" type="enum"   id="auto_interval" lvalues="30141|30142|30143|30144|30145"  visible="eq(-2,true)" default="4" />
+        <setting label="30180" type="enum"   id="auto_notification" lvalues="30181|30182|30183|30184"  visible="eq(-3,true)" default="0" />
+        <setting label="30092" type="lsep"   visible="eq(-4,true)" />
+        <setting label="30093" type="bool"   id="auto_cache" visible="eq(-5,true)" default="false" />
+        <setting label="30094" type="bool"   id="auto_packages" visible="eq(-6,true)" default="false" />
+        <setting label="30095" type="bool"   id="auto_thumbnails" visible="eq(-7,true)" default="false" />
+        <setting label="30096" type="bool"   id="auto_addons" visible="eq(-8,true)" default="false" />
+        <setting label="30097" type="bool"   id="auto_compact" visible="eq(-9,true)" default="false" />
+        <setting label="30099" type="bool"   id="auto_textures" visible="eq(-10,true)" default="false" />
+        <setting label="30100" type="bool"   id="auto_userdata" visible="eq(-11,true)" default="false" />
+        <setting label="32000" type="bool"   id="lock"  default="false" visible="false" />
+    </category>
+        <category label="30043">
+        <setting label="30081" type="bool"   id="debug"  default="false" />
+    </category>
+</settings>

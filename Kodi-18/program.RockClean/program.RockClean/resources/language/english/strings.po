@@ -1,0 +1,394 @@
+# Kodi Media Center language file
+# Addon Name: RockClean
+# Addon id: program.RockClean
+# Addon Provider: Rock
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi add-ons\n"
+"Report-Msgid-Bugs-To: https://forum.kodi.tv/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Rock\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "#30001"
+msgid "[COLOR blue]Check for add-ons without repo[/COLOR]"
+msgstr ""
+
+msgctxt "#30002"
+msgid "[COLOR blue]Textures database[/COLOR]"
+msgstr ""
+
+msgctxt "#30003"
+msgid "[COLOR blue]Clean textures DB[/COLOR]"
+msgstr ""
+
+msgctxt "#30004"
+msgid "[B][COLOR blue]Clean All[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30005"
+msgid "[COLOR blue]Databases[/COLOR]"
+msgstr ""
+
+msgctxt "#30007"
+msgid "[COLOR blue]Check for broken sources[/COLOR]"
+msgstr ""
+
+msgctxt "#30010"
+msgid "[COLOR blue]RockClean - Confirm cleanup of:[/COLOR]"
+msgstr ""
+
+msgctxt "#30011"
+msgid "[COLOR blue]Scanning for temporary files[/COLOR]"
+msgstr ""
+
+msgctxt "#30012"
+msgid "[COLOR blue]Checking paths...[/COLOR]"
+msgstr ""
+
+msgctxt "#30013"
+msgid "[COLOR blue]Cleaning: [/COLOR]"
+msgstr ""
+
+msgctxt "#30014"
+msgid "[COLOR blue]Deleted: [/COLOR]"
+msgstr ""
+
+msgctxt "#30015"
+msgid "[COLOR blue]Items in this folder: [/COLOR]"
+msgstr ""
+
+msgctxt "#30016"
+msgid "[COLOR blue]Scanning databases[/COLOR]"
+msgstr ""
+
+msgctxt "#30017"
+msgid "[COLOR blue]Compacting: [/COLOR]"
+msgstr ""
+
+msgctxt "#30018"
+msgid "[COLOR blue]Compacted: [/COLOR]"
+msgstr ""
+
+msgctxt "#30019"
+msgid "[COLOR blue]Scanning repositories[/COLOR]"
+msgstr ""
+
+msgctxt "#30020"
+msgid "[COLOR blue]Clean [/COLOR]"
+msgstr ""
+
+msgctxt "#30021"
+msgid "[COLOR blue]Choose action:[/COLOR]"
+msgstr ""
+
+msgctxt "#30022"
+msgid "[B][COLOR blue]Settings[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30023"
+msgid "[COLOR blue]Compact all databases[/COLOR]"
+msgstr ""
+
+msgctxt "#30024"
+msgid "[COLOR blue]Check for unused repositories[/COLOR]"
+msgstr ""
+
+msgctxt "#30025"
+msgid "[COLOR blue]Checking: [/COLOR]"
+msgstr ""
+
+msgctxt "#30026"
+msgid "[COLOR blue]Checked: [/COLOR]"
+msgstr ""
+
+msgctxt "#30027"
+msgid "[COLOR blue]Clean All + Compact all databases[/COLOR]"
+msgstr ""
+
+msgctxt "#30028"
+msgid "[COLOR blue]Confirm action:[/COLOR]"
+msgstr ""
+
+msgctxt "#30030"
+msgid "[COLOR red]Cleanup Interrupted.[/COLOR]"
+msgstr ""
+
+msgctxt "#30031"
+msgid "[COLOR red]Cleanup Done.[/COLOR]"
+msgstr ""
+
+msgctxt "#30041"
+msgid "[B][COLOR blue]MENU[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30042"
+msgid "[B][COLOR blue]AUTO CLEAN[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30043"
+msgid "[B][COLOR blue]DEBUG[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30072"
+msgid "[COLOR blue]Delete only thumbs not in database[/COLOR]"
+msgstr ""
+
+msgctxt "#30081"
+msgid "[COLOR blue]Debug logging - [COLOR red]To Kodi log[/COLOR]"
+msgstr ""
+
+msgctxt "#30083"
+msgid "[COLOR blue]Disable onscreen confirmations[/COLOR]"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Add-on Data [COLOR blue](Clean Add-on Data) [/COLOR]"
+msgstr ""
+
+msgctxt "#30091"
+msgid "[COLOR blue]Auto Clean[/COLOR]"
+msgstr ""
+
+msgctxt "#30092"
+msgid "[COLOR blue]Select actions for Auto Clean:[/COLOR]"
+msgstr ""
+
+msgctxt "#30093"
+msgid "[COLOR blue]Cache[/COLOR]"
+msgstr ""
+
+msgctxt "#30094"
+msgid "[COLOR blue]Packages[/COLOR]"
+msgstr ""
+
+msgctxt "#30095"
+msgid "[COLOR blue]Thumbnails[/COLOR]"
+msgstr ""
+
+msgctxt "#30096"
+msgid "[COLOR blue]Add-ons[/COLOR]"
+msgstr ""
+
+msgctxt "#30097"
+msgid "[COLOR blue]Database Compact[/COLOR]"
+msgstr ""
+
+msgctxt "#30098"
+msgid "[COLOR blue]Delay on startup (min)[/COLOR]"
+msgstr ""
+
+msgctxt "#30099"
+msgid "[COLOR blue]Clean textures DB[/COLOR]"
+msgstr ""
+
+msgctxt "#30100"
+msgid "[B][COLOR blue]Add-on Data[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30101"
+msgid "[COLOR blue]ATV Screensaver files[/COLOR]"
+msgstr ""
+
+msgctxt "#30110"
+msgid "[COLOR blue]Database [/COLOR]"
+msgstr ""
+
+msgctxt "#30111"
+msgid "[COLOR blue] compacted:[/COLOR]"
+msgstr ""
+
+msgctxt "#30112"
+msgid "[COLOR red]Mb[/COLOR]"
+msgstr ""
+
+msgctxt "#30113"
+msgid "[COLOR blue] cleaned:[/COLOR]"
+msgstr ""
+
+msgctxt "#30114"
+msgid "[COLOR blue]Scanning Textures database...[/COLOR]"
+msgstr ""
+
+msgctxt "#30115"
+msgid "[COLOR blue]Checking...[/COLOR]"
+msgstr ""
+
+msgctxt "#30116"
+msgid "[COLOR blue]Checking record ID: [/COLOR]"
+msgstr ""
+
+msgctxt "#30117"
+msgid "[COLOR blue]Checking unused data folders[/COLOR]"
+msgstr ""
+
+msgctxt "#30118"
+msgid "[COLOR blue]Checking paths to be compacted...[/COLOR]"
+msgstr ""
+
+msgctxt "#30120"
+msgid "[COLOR blue]EMPTY OR ERROR READING[/COLOR]"
+msgstr ""
+
+msgctxt "#30121"
+msgid "[COLOR blue]CONTAINS NO LOCAL add-ons[/COLOR]"
+msgstr ""
+
+msgctxt "#30122"
+msgid "[COLOR blue]IS IN NO REPOSITORY[/COLOR]"
+msgstr ""
+
+msgctxt "#30123"
+msgid "[COLOR blue]CAN NOT BE FOUND[/COLOR]"
+msgstr ""
+
+
+msgctxt "#30130"
+msgid "[COLOR blue]Cleaning totals:[/COLOR]"
+msgstr ""
+
+msgctxt "#30131"
+msgid "[COLOR blue]Compacting totals:[/COLOR]"
+msgstr ""
+
+msgctxt "#30132"
+msgid "[COLOR blue]Following repos have no add-ons:[/COLOR]"
+msgstr ""
+
+msgctxt "#30133"
+msgid "[COLOR blue]Cleanup report:[/COLOR]"
+msgstr ""
+
+msgctxt "#30134"
+msgid "[COLOR blue]Following add-ons have no repo:[/COLOR]"
+msgstr ""
+
+msgctxt "#30135"
+msgid "[COLOR blue]Clean Textures Database:[/COLOR]"
+msgstr ""
+
+msgctxt "#30136"
+msgid "[COLOR blue]Deleted[/COLOR]"
+msgstr ""
+
+msgctxt "#30137"
+msgid "[COLOR blue]stale records from Textures13.db database[/COLOR]"
+msgstr ""
+
+msgctxt "#30138"
+msgid "[COLOR blue]Deleted unused addon data folders:[/COLOR]"
+msgstr ""
+
+msgctxt "#30139"
+msgid "[COLOR blue]Compacted settings paths:[/COLOR]"
+msgstr ""
+
+msgctxt "#30140"
+msgid "[COLOR blue]Runs every[/COLOR]"
+msgstr ""
+
+msgctxt "#30141"
+msgid "[COLOR blue]Day[/COLOR]"
+msgstr ""
+
+msgctxt "#30142"
+msgid "[COLOR blue]Week[/COLOR]"
+msgstr ""
+
+msgctxt "#30143"
+msgid "[COLOR blue]Month[/COLOR]"
+msgstr ""
+
+msgctxt "#30144"
+msgid "[COLOR blue]Quarter[/COLOR]"
+msgstr ""
+
+msgctxt "#30145"
+msgid "[COLOR blue]On Kodi Start Up[/COLOR]"
+msgstr ""
+
+msgctxt "#30150"
+msgid "[COLOR blue]No Files Detected To Delete.[/COLOR]"
+msgstr ""
+
+msgctxt "#30151"
+msgid "[COLOR blue]No database compacted.[/COLOR]"
+msgstr ""
+
+msgctxt "#30152"
+msgid "[COLOR blue]No records deleted.[/COLOR]"
+msgstr ""
+
+msgctxt "#30153"
+msgid "[COLOR blue]No paths compacted.[/COLOR]"
+msgstr ""
+
+msgctxt "#30160"
+msgid "[B][COLOR blue]Cache[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30161"
+msgid "[B][COLOR blue]Packages[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30162"
+msgid "[B][COLOR blue]Thumbnails[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30163"
+msgid "[COLOR blue]Clean Add-ons[/COLOR]"
+msgstr ""
+
+msgctxt "#30170"
+msgid "[COLOR blue] /All[/COLOR]"
+msgstr ""
+
+msgctxt "#30171"
+msgid "[COLOR blue] /Not in DB[/COLOR]"
+msgstr ""
+
+msgctxt "#30172"
+msgid "[COLOR blue] /Not in DB (Fast)[/COLOR]"
+msgstr ""
+
+msgctxt "#30180"
+msgid "[COLOR blue]Auto Clean Display[/COLOR]"
+msgstr ""
+
+msgctxt "#30181"
+msgid "[COLOR blue]Progress and notification[/COLOR]"
+msgstr ""
+
+msgctxt "#30182"
+msgid "[COLOR blue]Progress only[/COLOR]"
+msgstr ""
+
+msgctxt "#30183"
+msgid "[COLOR blue]Notification only[/COLOR]"
+msgstr ""
+
+msgctxt "#30184"
+msgid "[COLOR blue]Nothing[/COLOR]"
+msgstr ""
+
+msgctxt "#30185"
+msgid "[B][COLOR blue]Update[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30186"
+msgid "[COLOR blue]ROCK CLEANER[/COLOR]"
+msgstr ""
+
+msgctxt "#30187"
+msgid "[COLOR blue]Update All Add-ons And Repository's ?[/COLOR]"
+msgstr ""
+
+msgctxt "#30188"
+msgid "[B][COLOR blue]VERSION [COLOR red]1.0.7[/COLOR][/B]"
+msgstr ""

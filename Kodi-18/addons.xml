@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.Movie_Zone"
+	name="[COLOR red]Strike's Movie Zone[/COLOR]"
+	version="1.0.3"
+	provider-name="Strike">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Strikes YouTube Movies Playlists</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="program.RockClean"
+       name="[COLOR red]ROCK CLEAN[/COLOR]"
+       version="1.0.7"
+       provider-name="[I][COLOR red]Rock[/COLOR][/I]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <extension library="clean.py" point="xbmc.python.pluginsource">
+        <provides>executable</provides>
+  </extension>
+  <extension library="starter.py" point="xbmc.service" start="startup">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary></summary>
+    <description>
+	Simple tool for cleaning Kodi and its file system.
+    </description>
+    <language></language>
+  </extension>
+</addon>
+
+<addon id="plugin.video.DreamZBeats"
+	name="[COLOR magenta]DreamZBeats[/COLOR]"
+	version="1.0.7"
+	provider-name="[COLOR magenta]Dreamweaver[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">YouTube Music</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="program.plexus"
+       name="Plexus"
+       version="0.1.7"
+       provider-name="enen92, RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>SopCast and AceStream for Kodi</summary>
+    <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
+    <description lang="pt">Plexus - Uma estrutura complexa constituída por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para várias plataformas.[CR][CR]Documentação: (em falta)</description>
+    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus añade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
+	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo que poderá ser reproduzido a partir deste addon. Os autores não têm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fórum oficial do Kodi por favor respeite as regras do fórum (http://kodi.wiki/view/Forum_rules).</disclaimer>
+   	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.XGames"
+	name="[COLOR red]X Games[/COLOR]"
+	version="1.0.9"
+	provider-name="[I][COLOR red]Rock[/COLOR][/I]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">X Games on YouTube</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.BRAIN_DRAIN"
+	name="[COLOR red]BRAIN DRAIN[/COLOR]"
+	version="1.0.7"
+	provider-name="[I][COLOR red]Rock[/COLOR][/I]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BRAIN DRAIN on YouTube</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.AutoZone"
+	name="[COLOR dodgerblue]Strikes Auto Zone[/COLOR]"
+	version="1.0.2"
+	provider-name="[COLOR dodgerblue]Strike[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Strikes YouTube Auto lists</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.MusicVids"
+	name="[COLOR gray]Strike's Music Vids[/COLOR]"
+	version="1.0.3"
+	provider-name="Strike">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Strikes YouTube Music Video Playlists</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.CRIME_SCENE"
+	name="[COLOR red]CRIME SCENE[/COLOR]"
+	version="1.0.6"
+	provider-name="[I][COLOR red]Rock[/COLOR][/I]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CRIME SCENE on YouTube</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.SkuffTV"
+	name="[COLOR magenta]Skuff TV[/COLOR]"
+	version="1.0.5"
+	provider-name="[COLOR magenta]Dreamweaver[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Skuff TV on YouTube</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="program.RockCleaner-Classic"
+       name="[COLOR red]ROCK CLEANER CLASSIC[/COLOR]"
+       version="1.0.4"
+       provider-name="[I][COLOR red]Rock[/COLOR][/I]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="cleaner.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Add-on Icon courtesy of @MrCoDer @Team Iconz</summary>
+    <description>Simple tool for cleaning Kodi and its file system.</description>
+    <news>Code change to fix Views issue.</news>
+    <language></language>
+  </extension>
+</addon>
+
+<addon id="plugin.video.GearZ"
+	name="[COLOR red]GearZ[/COLOR]"
+	version="1.0.6"
+	provider-name="[I][COLOR red]Rock[/COLOR][/I]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GearZ Add-on</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.VMAXX"
+	name="[COLOR red]VMAXX[/COLOR]"
+	version="1.0.1"
+	provider-name="[I][COLOR red]Rock/Dreamweaver[/COLOR][/I]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="plugin.video.youtube" optional="true"/>
+    <import addon="inputstream.adaptive"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>Music and video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+       <summary lang="en">VMAXX YouTube</summary>
+       <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+       <news>Thanks to @mr000iconz / Team Iconz and @hughes_posty for artwork.</news>
+       <platform>all</platform>
+       <reuselanguageinvoker>false</reuselanguageinvoker>
+  </extension>
+</addon>
+
+<addon id="plugin.video.FightTube"
+	name="[COLOR red]Fight[COLOR silver]Tube[/COLOR]"
+	version="1.0.6"
+	provider-name="[I][COLOR red]Rock[/COLOR][/I]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Mixed fighting on YouTube</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.AllSportzRecaps"
+	name="[COLOR red]Strike's AllSportz Recaps[/COLOR]"
+	version="1.0.7"
+	provider-name="Strike">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Strikes YouTube Sports Playlists</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.slipstream"
+       name="[COLOR red]Slipstream[/COLOR]"
+       version="1.0.1"
+       provider-name="[I][COLOR red]Rock[/COLOR][/I]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+	<import addon="script.module.requests"/>
+    <import addon="script.module.resolveurl"/>
+	<import addon="inputstream.adaptive"/>
+	<import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			library="Slipstream.py">
+			<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Race Replays</summary>
+    <description lang="en">Race Replays</description>
+    <language>en</language>
+	<platform>all</platform>
+  </extension>
+</addon>
+</addons>
