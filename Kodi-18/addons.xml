@@ -268,6 +268,29 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.RockConcert"
+	name="[COLOR red]Rock[COLOR silver] Concert[/COLOR]"
+	version="1.0.0"
+	provider-name="[I][COLOR red]Rock[/COLOR][/I]">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.resolveurl"/>
+    <import addon="inputstream.adaptive"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live Rock Concerts on YouTube</summary>
+    <description lang="en">All video contained within this add-on is scraped from youtube Channels and is not hosted in any way by the author.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.VMAXX"
 	name="[COLOR red]VMAXX[/COLOR]"
 	version="1.0.1"
