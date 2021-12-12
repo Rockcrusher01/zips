@@ -229,7 +229,7 @@
 
 <addon id="program.RockCleaner-Classic"
        name="[COLOR red]ROCK CLEANER CLASSIC[/COLOR]"
-       version="1.0.6"
+       version="1.0.7"
        provider-name="[I][COLOR red]Rock[/COLOR][/I]">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
